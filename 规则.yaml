@@ -601,6 +601,8 @@ rules:
   - "DOMAIN-KEYWORD,zero9,全球直连"
   - "DOMAIN-SUFFIX,dingtalk.com,全球直连"
   - "DOMAIN-SUFFIX,ipuhuo.com,全球直连"
+  - "DOMAIN-SUFFIX,nodeseek.com,节点选择"
+
 
   - "PROCESS-NAME,BsgLauncher.exe,全球直连"
 
