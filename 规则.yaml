@@ -650,7 +650,7 @@ sniffer:
     - "Mijia Cloud"
     - "dlg.io.mi.com"
     - "+.push.apple.com"
-    - "abchina.com.cn"
+    - "+.abchina.com.cn"
 
 dns:
   enable: true
