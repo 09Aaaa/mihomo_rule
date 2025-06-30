@@ -607,6 +607,7 @@ rules:
   - "DOMAIN-KEYWORD,hetzner,节点选择"
   - "DOMAIN-KEYWORD,zero9,全球直连"
   - "DOMAIN-SUFFIX,ipuhuo.com,全球直连"
+  - "DOMAIN-SUFFIX,gm.mmstat.com,全球直连"
   - "DOMAIN-SUFFIX,nodeseek.com,节点选择"
 
 
