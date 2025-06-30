@@ -205,6 +205,13 @@ proxy-groups:
       - 全球直连
       - 台湾节点
       - 香港节点
+   - name: 钉钉   # <--- 这是新策略组的名称
+   icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DingTalk.png # 这是一个钉钉的图标，让界面更好看
+   type: select
+   proxies:
+     - 全球直连
+     - 节点选择
+     - 手动切换
   - name: 懂王社媒
     icon: https://cdn.jsdelivr.net/gh/powerfullz/override-rules@master/icons/TruthSocial.png
     type: select
@@ -599,7 +606,6 @@ rules:
 
   - "DOMAIN-KEYWORD,hetzner,节点选择"
   - "DOMAIN-KEYWORD,zero9,全球直连"
-  - "DOMAIN-SUFFIX,dingtalk.com,全球直连"
   - "DOMAIN-SUFFIX,ipuhuo.com,全球直连"
   - "DOMAIN-SUFFIX,nodeseek.com,节点选择"
 
@@ -611,7 +617,18 @@ rules:
   - "GEOSITE,YOUTUBE@CN,全球直连"
   - "GEOSITE,YOUTUBE,YouTube"
   - "GEOSITE,NETFLIX,Netflix"
-  - "GEOSITE,BAHAMUT,巴哈姆特"  
+  - "GEOSITE,BAHAMUT,巴哈姆特"
+  - "DOMAIN-SUFFIX,ddurl.to,钉钉"
+  - "DOMAIN-SUFFIX,dg-work.cn,钉钉"
+  - "DOMAIN-SUFFIX,dingding.xin,钉钉"
+  - "DOMAIN-SUFFIX,dingtalk.cn,钉钉"
+  - "DOMAIN-SUFFIX,dingtalk.com,钉钉"
+  - "DOMAIN-SUFFIX,dingtalk.com.cn,钉钉"
+  - "DOMAIN-SUFFIX,dingtalk.net,钉钉"
+  - "DOMAIN-SUFFIX,dingtalkapps.com,钉钉"
+  - "DOMAIN-SUFFIX,laiwang.com,钉钉"
+  - "DOMAIN-SUFFIX,lwurl.to,钉钉"
+  - "DOMAIN-SUFFIX,realapp.xin,钉钉"
   - "GEOSITE,BILIBILI,哔哩哔哩"
   - "GEOSITE,CATEGORY-GAMES@CN,全球直连"
   - "GEOSITE,CATEGORY-GAMES,游戏平台"
