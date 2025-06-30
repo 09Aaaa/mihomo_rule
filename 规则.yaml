@@ -205,13 +205,13 @@ proxy-groups:
       - 全球直连
       - 台湾节点
       - 香港节点
-   - name: 钉钉
-     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DingTalk.png
-     type: select
-     proxies:
-     - 全球直连
-     - 节点选择
-     - 手动切换
+  - name: 钉钉
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DingTalk.png
+    type: select
+    proxies:
+      - 全球直连
+      - 节点选择
+      - 手动切换
   - name: 懂王社媒
     icon: https://cdn.jsdelivr.net/gh/powerfullz/override-rules@master/icons/TruthSocial.png
     type: select
